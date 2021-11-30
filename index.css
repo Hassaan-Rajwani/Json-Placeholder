@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to left , skyblue, white , skyblue);
+}
+tr{
+    border: outset 5px !important;
+
+}
+td{
+    padding: 10px;
+    border: outset 5px  !important;
+}
+tr:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    cursor: pointer;
+}
+th{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    border: outset 5px !important;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aqua;
+    background-image: linear-gradient(to left , skyblue, white , skyblue);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON PlaceHolder</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body style="font-family: sans-serif;">
+    <table border="1" id="table">
+        <th>Id</th>
+        <th>Title</th>
+        <th>Body</th>
+        <th>Comment</th>
+    </table>
+
+    <span class="center">
+        <nav aria-label="..." >
+            <ul class="pagination pagination-lg">
+                <li class="page-item " aria-current="page">
+                    <span class="page-link">1</span>
+                </li>
+            <li class="page-item"><button class="page-link" onclick="loop2()">2</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop3()">3</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop4()">4</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop5()">5</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop6()">6</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop7()">7</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop8()">8</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop9()">9</button></li>
+            <li class="page-item"><button class="page-link" onclick="loop10()">10</button></li>
+        </ul>
+        </nav></span>
+        
+        
+        
+        <div class="bs-example">
+            <div id="myModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">All Comments</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p id="para">This is a simple Bootstrap modal. Click the "Cancel button", "cross icon" or "dark gray area" to close or hide the modal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="./index.js"></script>
+</html>
