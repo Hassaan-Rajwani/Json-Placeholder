@@ -14,11 +14,11 @@ td{
     border: outset 5px  !important;
 }
 tr:hover{
-    /* background-color: rgb(0, 183, 255);
-    color: white; */
     cursor: pointer;
 }
 th{
+    color: rgb(39, 39, 39);
+    font-family: fantasy;
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
@@ -32,4 +32,13 @@ nav{
     padding-top: 10px;
     background-color: aqua;
     background-image: linear-gradient(to left , skyblue, white , skyblue);
+}
+@media screen and (min-width:350px) and (max-width:415px) {
+    th{
+        font-size: 20px;
+    }
+    button{
+        width: 10px;
+        font-size: 5px;
+    }
 }
